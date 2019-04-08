@@ -45,3 +45,38 @@ Adicionalmente, tentaremos verificar a sua familiarização com as bibliotecas p
 ### Referência
 
 Este desafio foi baseado neste outro desafio: https://github.com/lschallenges/data-engineering
+
+# O teste
+O teste foi desenvolvido com:
+1. Ruby 2.5.1
+1. Rails 5.2.3
+1. Banco de Dados SqLite
+
+Para executar o projeto é necessário ter o Ruby instalado. 
+Ná pasta do teste tem a api e o index.html com o formulário para upload do arquivo. 
+
+##Passo a passo para executar o teste
+
+##### Passo 1
+Após o clone do repositório, entre na pasta do projeto api:
+
+```bash
+$ cd desafio-programacao-1/api
+```
+
+##### Passo 2
+Instale as gems do projeto:
+
+```bash
+$ bundle install
+```
+
+##### Passo 3
+Execute o arquivo ./init.sh para executar o projeto.
+
+```bash
+$ ./init.sh
+```
+
+##### Passo 4
+Fora do diretório api, abra no navegador o arquivo index.html
